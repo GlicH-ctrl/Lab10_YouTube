@@ -251,3 +251,32 @@ button:hover {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+    
+    .header-center {
+        max-width: 200px;
+    }
+    
+    .search-btn {
+        width: 40px;
+    }
+    
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-right .create-btn,
+    .header-right .notifications-btn {
+        display: none;
+    }
+    
+    .logo-text {
+        display: none;
+    }
+}
