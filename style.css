@@ -39,3 +39,46 @@ body {
     align-items: center;
     gap: 16px;
 }
+
+button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #f2f2f2;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.logo-icon {
+    font-size: 24px;
+    color: #ff0000;
+}
+
+.logo-text {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
