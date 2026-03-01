@@ -119,3 +119,55 @@ button:hover {
     margin: 0 20px;
     gap: 0;
 }
+
+.content {
+    display: flex;
+    min-height: calc(100vh - 56px);
+}
+
+.sidebar {
+    width: 240px;
+    background-color: white;
+    padding: 12px 0;
+    overflow-y: auto;
+    height: calc(100vh - 56px);
+    position: sticky;
+    top: 56px;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 10px 24px;
+    color: #030303;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.nav-link:hover {
+    background-color: #f2f2f2;
+}
+
+.nav-link.active {
+    background-color: #e5e5e5;
+    font-weight: 500;
+}
+
+.divider {
+    margin: 12px 0;
+    border: none;
+    border-top: 1px solid #e5e5e5;
+}
+
+.main {
+    flex: 1;
+    padding: 24px;
+    background-color: #f9f9f9;
+}
